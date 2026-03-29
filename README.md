@@ -12,6 +12,7 @@ It includes:
 
 # 🚀 Project Structure
 network-asset-classification/
+│
 ├── app.py # Main entry point (run this file)
 ├── data_processing.py # Data cleaning & filtering logic
 ├── metrics.py # KPI calculations
@@ -19,8 +20,10 @@ network-asset-classification/
 │
 ├── data/
 │ └── data.csv # Raw dataset
-├── Dashboard data/
-│ └── dashboard_data.csv # Processed data for Dashboard
+│
+├── dashboard_data/
+│ └── dashboard_data.csv # Processed data for dashboard
+│
 ├── Network_analysis.ipynb # Data exploration & feature engineering
 ├── pyproject.toml # Project dependencies
 ├── uv.lock # Dependency lock file

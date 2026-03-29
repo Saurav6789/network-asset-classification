@@ -12,25 +12,26 @@ It includes:
 
 # 🚀 Project Structure
 
+```
 network-asset-classification/
 │
-├── app.py # Main entry point (run this file)
-├── data_processing.py # Data cleaning & filtering logic
-├── metrics.py # KPI calculations
-├── callbacks.py # Dash callbacks
+├── app.py                      # Main entry point (run this file)
+├── data_processing.py          # Data cleaning & filtering logic
+├── metrics.py                  # KPI calculations
+├── callbacks.py                # Dash callbacks
 │
 ├── data/
-│ └── data.csv # Raw dataset
+│   └── data.csv                # Raw dataset
 │
 ├── Dashboard data/
-│ └── dashboard_data.csv # Processed dataset used in dashboard
+│   └── dashboard_data.csv      # Processed dataset used in dashboard
 │
-├── Network_analysis.ipynb # Data exploration & feature engineering
+├── Network_analysis.ipynb      # Data exploration & feature engineering
 │
-├── pyproject.toml # Project dependencies
-├── uv.lock # Dependency lock file
-├── README.md # Project documentation
-
+├── pyproject.toml              # Project dependencies
+├── uv.lock                     # Dependency lock file
+├── README.md                   # Project documentation
+```
 
 ---
 

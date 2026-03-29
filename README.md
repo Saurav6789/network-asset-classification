@@ -12,7 +12,6 @@ It includes:
 
 # 🚀 Project Structure
 network-asset-classification/
-│
 ├── app.py # Main entry point (run this file)
 ├── data_processing.py # Data cleaning & filtering logic
 ├── metrics.py # KPI calculations
